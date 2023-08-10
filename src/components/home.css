@@ -1,0 +1,588 @@
+.navbar{
+  width:100%;
+  background-color: black;
+  padding: 15px 0px;
+  text-align: center;
+}
+
+.navbarMenu{
+  color: white;
+  margin : 8px;
+  text-decoration: none;
+  margin-left : 100px;    
+}
+
+.row-form{
+  flex-direction : row;
+}
+
+.search-background{
+  border: 2px solid #fe4452;
+  border-radius: 30px;    
+  margin-left : 100px;
+}
+
+.search-input{
+  color : white;
+  background: none;
+  border: none;
+  width: 400px;
+  margin: 10px 0;
+  outline : none;
+
+}
+
+.tdSize {
+  width: 200px;
+  height: 200px;
+}
+
+.td800 {
+  width: 800px;
+  height: 70px;
+  white-space : normal;
+}  
+
+.td600{
+  width : 600px;
+  height : 70px;
+  white-space : normal;
+}
+
+.td400 {
+  width: 400px;
+  height: 70px;
+  white-space : normal;
+}  
+
+.td350 {
+  width: 350px;
+  height: 50px;
+  white-space : normal;
+}    
+
+.td50 {
+  width: 50px;
+  height: 50px;
+  white-space : normal;
+}
+
+.td200{
+  width: 200px;
+  height: 70px;
+  white-space : normal;    
+}
+
+.chart-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.chart-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.chart-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.even-row {
+  background-color: #f9f9f9;
+}
+
+.odd-row {
+  background-color: #ffffff;
+}
+
+.rank-cell {
+  width: 50px;
+}
+
+.item-cell {
+  width: 100px;
+}
+
+
+.signin-alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-alert-modal {
+  background-color: #000000;
+  border: 2px solid #fe4452;
+  height: auto;    
+  padding: 30px;
+  border-radius: 10px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  text-align: center;
+}
+
+.signin-alert-modal p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.signin-alert-modal button {
+  font-family: 'Noto Sans KR', sans-serif;
+  border: none;
+  width: 50%;
+  background-color: #93ff67;
+  color: black;
+  padding: 10px 0;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.signin-alert-modal button:hover {
+  background-color: #fe4452;
+}  
+
+.signup-alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-alert-modal {
+  background-color: #000000;
+  border: 2px solid #93ff67;
+  height: auto;    
+  padding: 30px;
+  border-radius: 10px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  text-align: center;
+}
+
+.signup-alert-modal p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.signup-alert-modal button {
+  font-family: 'Noto Sans KR', sans-serif;
+  border: none;
+  width: 50%;
+  background-color: #fe4452;
+  color: black;
+  padding: 10px 0;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.signup-alert-modal button:hover {
+  background-color: #93ff67;
+}    
+
+.recommend-alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recommend-alert-modal {
+  background-color: #000000;
+  border: 2px solid #fe4452;
+  height: auto;    
+  padding: 30px;
+  border-radius: 10px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  text-align: center;
+}
+
+.recommend-alert-modal p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.recommend-alert-modal button {
+  font-family: 'Noto Sans KR', sans-serif;
+  border: none;
+  width: 50%;
+  background-color: #93ff67;
+  color: black;
+  padding: 10px 0;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.recommend-alert-modal button:hover {
+  background-color: #fe4452;
+}  
+
+
+.refresh-btn1 {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size : 14px;
+  border: none;
+  width: 200px;
+  height : 40px;
+  background-color: #93ff67;
+  color: black;
+  padding: 10px 0;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .2s;
+  margin-bottom : 10px;
+}
+
+.refresh-btn1:hover {
+  background-color: #fe4452;
+}
+
+.refresh-btn1:focus {
+  outline: none;
+}
+
+.refresh-btn1:active {
+  background-color: #93ff67;
+  transform: translateY(2px);
+}
+
+.refresh-btn2 {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size : 14px;
+  border: none;
+  width: 200px;
+  height : 40px;
+  background-color: #fe4452; /* 변경: 새로운 배경색상 */
+  color: black;
+  padding: 10px 0;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .2s;
+  margin-bottom : 10px;
+}
+
+.refresh-btn2:hover {
+  background-color: #93ff67; /* 변경: 호버 상태의 배경색상 */
+}
+
+.refresh-btn2:focus {
+  outline: none;
+}
+
+.refresh-btn2:active {
+  background-color: #fe4452; /* 변경: 클릭 상태의 배경색상 */
+  transform: translateY(2px);
+}
+
+.recommend1-container {
+border: 2px solid #93ff67;
+margin-top : 50px;
+padding-left : 100px;
+padding-right : 50px;
+padding-bottom: 25px;
+padding-top : 50px;
+border-radius: 10px;  
+border-collapse: initial;
+}
+
+.recommend2-container{
+  border: 2px solid #fe4452;
+  margin-top : 50px;
+  padding-left : 100px;
+  padding-right : 50px;  
+  padding-bottom: 25px;
+  padding-top : 50px;
+  border-radius: 10px;      
+  border-collapse: initial;
+}
+
+.select-item1{
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size : 14px;
+  border: none;
+  width: 70%;
+  height : 40px;
+  background-color: #fe4452;
+  color: black;
+  padding: 10px 0;
+  font-weight: 700;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: .2s;
+  margin-bottom : 10px;
+
+  }
+
+.selected-item1{
+display: inline-block;
+border: 2px solid #93ff67; /* 동그란 테두리 색상 */
+border-radius: 10px; 
+padding: 5px 10px; 
+margin-right: 10px;   
+position: relative;
+cursor: pointer;
+}
+
+.selected-item2{
+display: inline-block;
+border: 2px solid #93ff67; /* 동그란 테두리 색상 */
+border-radius: 10px; /* 동그란 테두리를 위한 원형 모양 */
+padding: 5px 10px; /* 테두리와 텍스트 사이의 간격 */
+margin-right: 10px; /* 선택된 단어들 간의 간격 */  
+position: relative;
+cursor: pointer;
+}
+
+.remove-icon {
+position: absolute;
+top: 50%;
+right: -15px;
+transform: translate(50%, -50%);
+font-weight: bold;
+font-size: 14px;
+cursor: pointer;
+}
+
+.submit-btn {
+font-family: 'Noto Sans KR', sans-serif;
+border: none;
+width: 240px;
+background-color: #93ff67;
+color: black;
+padding: 10px 0;
+font-weight: 700;
+border-radius: 5px;
+cursor: pointer;
+transition: .2s;
+}
+
+.submit-btn:hover {
+background-color: #fe4452;
+}
+
+.submit-btn:focus {
+outline: none;
+}
+
+.submit-btn:active {
+background-color: #93ff67;
+transform: translateY(2px);
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.navbar1 {
+  width: 800px;
+  background-color: black;
+  padding: 10px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-tab1{
+  width : 800px;
+  padding-bottom : 1px;
+  border-bottom: 2px solid #ffffff;    
+}
+
+.nav-item1 {
+  display: inline-block;
+  margin: 8px;
+}
+
+.nav-link1 {
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-left: 20px;
+  transition: background-color 0.2s, font-weight 0.2s;
+  font-size: 16px;
+  border : none;
+}
+
+.nav-link1:hover {
+  background-color: #ffffff;
+  text-decoration: none;
+  color : #000000;
+  cursor : pointer;
+}
+
+.nav-link1:active { 
+  background-color: #ffffff;
+  color : #ffffff;
+  text-decoration: none;
+
+}
+
+
+/* 아직 검증안됨 */
+.title_container {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.title_container h4 {
+  font-size: 18px;
+  margin: 0;
+  color: #ffffff;
+}
+
+.title_container button {
+  background-color: #93ff67;
+  color: #000000;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.title_container button:hover {
+  background-color: #fe4452;
+}
+
+.lyric_modal {
+  font-family: 'Noto Sans KR', sans-serif;  
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000000;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border: 2px solid #93ff67;
+  border-radius: 5px;
+  z-index: 9999;
+  max-width: 500px;
+  width: 80%;
+  max-height: 80vh; /* Set the maximum height to 80% of the viewport height */
+  overflow-y: auto; /* Enable vertical scrolling when content overflows */
+}
+
+.lyric_modal h4 {
+  position: sticky;
+  top: 20px; 
+  background-color: #000000;
+  /* padding: 10px; */
+  margin: 0;
+  color: white;
+  font-size: 18px;
+}
+
+.lyric_modal p {
+  margin-bottom: 16px;
+  color: white;
+  font-size : 16px;
+}
+
+.lyric_modal button {
+  background-color: #93ff67;
+  color: #000000;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.lyric_modal button:hover {
+  background-color: #fe4452;
+}
+
+.lyric_content {
+  padding-left : 10px;
+  margin-bottom: 10px; /* Add margin between the paragraphs and the close button */
+}
+
+/* Additional styles to center the text and align the button in the modal */
+.lyric_modal p,
+.lyric_modal button {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.lyric_modal::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+
+.lyric_modal::-webkit-scrollbar-thumb {
+  /* border: 3px solid #fe4452; */
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.lyric_modal:hover::-webkit-scrollbar-thumb {
+  background-color: #fe4452;
+}
+
+
+.lyric-btn {
+  font-family: 'Noto Sans KR', sans-serif;
+  border: none;
+  width: 80px;
+  height : 35px;
+  background-color: #93ff67;
+  color: black;
+  /* padding: 10px 0; */
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .2s;
+  }
+
+  .lyric-btn:hover {
+    background-color: #fe4452;
+    transform: translateY(3px);
+  }
+  
+  .lyric-btn:focus {
+    outline: none;
+  }
+  
+  .lyric-btn:active {
+    background-color: #93ff67;
+    transform: translateY(5px);
+  }

@@ -1,0 +1,39 @@
+.cent{
+    text-align : center;
+}
+
+.navbar{
+    width:100%;
+    background-color: white;
+    padding: 15px 0px;
+    text-align: center;
+    
+}
+
+.navbarMenu{
+    /* color: white;*/
+    margin : 8px;
+    text-decoration: none;
+    margin-left : 100px;    
+}
+
+.row-form{
+    flex-direction : row;
+}
+
+.search-background{
+    border: 2px solid #fe4452;
+    border-radius: 30px;    
+    margin-left : 100px;
+}
+
+.search-input{
+    color : white;
+    background: none;
+    border: none;
+    width: 400px;
+    margin: 10px 0;
+    outline : none;
+
+}
+
